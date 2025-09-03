@@ -2,7 +2,6 @@
 # https://github.com/github-for-unity/Unity/blob/master/src/GitHub.Api/Resources/.gitattributes
 
 * text=auto
-
 # Unity files
 *.meta -text merge=unityyamlmerge diff
 *.unity -text merge=unityyamlmerge diff
@@ -26,7 +25,6 @@
 *.terrainlayer -text merge=unityyamlmerge diff
 *.mixer -text merge=unityyamlmerge diff
 *.shadervariants -text merge=unityyamlmerge diff
-
 # Image formats
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
@@ -40,7 +38,6 @@
 *.pict filter=lfs diff=lfs merge=lfs -text
 *.dds filter=lfs diff=lfs merge=lfs -text
 *.xcf filter=lfs diff=lfs merge=lfs -text
-
 # Audio formats
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
@@ -51,7 +48,6 @@
 *.it filter=lfs diff=lfs merge=lfs -text
 *.s3m filter=lfs diff=lfs merge=lfs -text
 *.xm filter=lfs diff=lfs merge=lfs -text
-
 # Video formats
 *.mov filter=lfs diff=lfs merge=lfs -text
 *.avi filter=lfs diff=lfs merge=lfs -text
@@ -59,7 +55,6 @@
 *.mpg filter=lfs diff=lfs merge=lfs -text
 *.mpeg filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
-
 # 3D formats
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
@@ -75,15 +70,62 @@
 *.lwo2 filter=lfs diff=lfs merge=lfs -text
 *.abc filter=lfs diff=lfs merge=lfs -text
 *.3dm filter=lfs diff=lfs merge=lfs -text
-
 # Build
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
 *.mdb filter=lfs diff=lfs merge=lfs -text
-
 # Packaging
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.7z filter=lfs diff=lfs merge=lfs -text
 *.gz filter=lfs diff=lfs merge=lfs -text
 *.rar filter=lfs diff=lfs merge=lfs -text
 *.tar filter=lfs diff=lfs merge=lfs -text
+*.framework filter=lfs diff=lfs merge=lfs -text
+*.gitignore filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.plist filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/MacOS/Gamertain_Emergence filter=lfs diff=lfs merge=lfs -text
+*.browser filter=lfs diff=lfs merge=lfs -text
+*.aspx filter=lfs diff=lfs merge=lfs -text
+*.config filter=lfs diff=lfs merge=lfs -text
+*.map filter=lfs diff=lfs merge=lfs -text
+*.ini filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/MonoBleedingEdge/etc/mono/config filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.bundle filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/Resources/unity[[:space:]]default[[:space:]]resources filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/Resources/unity_builtin_extra filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.info filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/globalgamemanagers filter=lfs diff=lfs merge=lfs -text
+*.assets filter=lfs diff=lfs merge=lfs -text
+*.resS filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level0 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level1 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level2 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level3 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level4 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level5 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level6 filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/Resources/Data/level7 filter=lfs diff=lfs merge=lfs -text
+*.resource filter=lfs diff=lfs merge=lfs -text
+*.nib filter=lfs diff=lfs merge=lfs -text
+*.xcprivacy filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/Gamertain_Emergence.app/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
+/Build/OSX/UNTESTED filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/Resources/unity[[:space:]]default[[:space:]]resources filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/Resources/unity_builtin_extra filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/globalgamemanagers filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level0 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level1 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level2 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level3 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level4 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level5 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level6 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/Gamertain_Emergence_Data/level7 filter=lfs diff=lfs merge=lfs -text
+/Build/Windows/MonoBleedingEdge/etc/mono/config filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text
